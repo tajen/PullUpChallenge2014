@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pull Up Challenge 2014</string>
+    <string name="action_settings">Settings</string>
+    <string name="clear_db">Clear database</string>
+    <string name="delete_first">Delete First Entry</string>
+    <string name="open_database">Open database</string>
+
+    <!-- DatabaseActivity -->
+    <string name="database_delete_entry">Delete Entry?</string>
+    <string name="database_entry_deleted_toast">Entry deleted</string>
+
+    <!-- Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>
