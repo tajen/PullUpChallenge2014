@@ -25,9 +25,6 @@ import android.view.*;
  */
 public class DatabaseActivity extends ListActivity {
 
-	
-
-	// private AdView adView;
 	private PullUpDataBase DataSource;
 
 	ArrayAdapter<RegistrationElement> adapter;

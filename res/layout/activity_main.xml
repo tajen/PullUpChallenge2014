@@ -92,11 +92,35 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtAvgCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtDifference"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <dk.tajen.pullupchallenge2014.GraphLayout
         android:id="@+id/chart"
         android:layout_width="match_parent"
         android:layout_height="298dp"
         android:orientation="horizontal" >
-    </LinearLayout>
+    </dk.tajen.pullupchallenge2014.GraphLayout>
 
     <RelativeLayout
         android:id="@+id/ad_holder"
@@ -108,6 +132,7 @@
             android:id="@+id/adView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
             ads:adSize="BANNER"
             ads:adUnitId="ca-app-pub-6382574523417645/1416991410" >
